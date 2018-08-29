@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+
+}
+.cell{
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    border: white solid 1px
+}
+.wall{
+    background-color: black;
+}
+.start{
+    background-color: goldenrod;
+}
+.finish{
+    background-color: fuchsia;
+}
+#kratos{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    border: black solid 1px;
+    background-color: red;
+}
